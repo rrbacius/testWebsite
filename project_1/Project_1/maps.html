@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/basicmap.css">
+    <link rel="stylesheet" href="css/menuSlide.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" media="screen" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"
+            async defer></script>
+    <script src="JS/basicmap.js" async defer></script>
+</head>
+<link rel="icon" type="image/png" href="images/favicon-32x32.png">
+<body>
+<h1 id="resumeHeading">MAP</h1>
+<div class="menuSlide red topBotomBordersOut">
+    <a href="index.html#">RESUME</a>
+    <a href="projects.html">PORTFOLIO</a>
+    <a href="contact.html">ABOUT</a>
+    <a href="maps.html">MAP</a>
+</div>
+<div id="map"></div>
+</body>
+<footer>
+    <section class="social">
+        <div class="social-icon-background">
+            <a class="ion-social-instagram-outline" href="https://www.instagram.com/robertbacius/" target="_blank"></a>
+        </div>
+        <div class="social-icon-background">
+            <a class="ion-social-linkedin" href="https://www.linkedin.com/in/robert-bacius-6b7b36122/" target="_blank"></a>
+        </div>
+</footer>
+</html>
+
+<script src="vanta/vendor/three.r92.min.js"></script>
+<script src="vanta/vendor/three.r92.min.js"></script>
+<script src="vanta/dist/vanta.net.min.js"></script>
+<script>
+    VANTA.NET({
+        el: 'body',
+        color: "rgb(53, 67, 90)",
+        backgroundColor: "rgb(30, 32, 25)",
+        points: 13.00,
+        maxDistance: 30.00,
+        spacing: 14.00,
+        showDots: false
+    })
+</script>
